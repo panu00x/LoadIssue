@@ -1,24 +1,19 @@
-# Install PyGithub
+## Install
 ```
+- pullissue
+pip install -i https://test.pypi.org/simple/ pullissue
+
+- PyGithub
 pip3 install PyGithub
 ```
-# open terminal
+## Using on Terminal
 ```
-python3
+- load all issue
+loadissue token
+- load only repository
+loadissue token username/repository
 ```
-#import
+## Complete
 ```
-import pullissue.app as load
-```
-#load all issue
-```
-load.getAll("token")
-```
-#load only repository
-```
-load.getByname("token","username/repository")
-```
-#Complete
-```
-file.csv in your Document
+file.csv will save in your Document
 ```

@@ -5,7 +5,8 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pullissue",
-    version="0.0.1",
+    version="0.0.2",
+    scripts=['loadissue'] ,
     author="panu00x",
     author_email="lewpanu@gmail.com",
     description="Load github issue to .csv",

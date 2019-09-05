@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+import sys
+print("TEST")
+if len(sys.argv)>2:
+    import pullissue.app as load
+    load.getByname(sys.argv[1],sys.argv[2])
+else:
+    import pullissue.app as load
+    load.getAll(sys.argv[1])
