@@ -1,7 +1,7 @@
 ## Install
 ```
 - pullissue
-pip install -i https://test.pypi.org/simple/ pullissue
+pip3 install -i https://test.pypi.org/simple/ pullissue
 
 - PyGithub
 pip3 install PyGithub
