@@ -10,6 +10,7 @@ pylint = "*"
 setuptools = "*"
 wheel = "*"
 twine = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.7"

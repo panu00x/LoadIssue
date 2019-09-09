@@ -1,24 +1,24 @@
 Metadata-Version: 2.1
 Name: pullissue
-Version: 0.0.2
+Version: 0.0.4
 Summary: Load github issue to .csv
 Home-page: https://github.com/panu00x/LoadIssue
 Author: panu00x
 Author-email: lewpanu@gmail.com
 License: UNKNOWN
-Description: # Install PyGithub
+Description: ## Install
         ```
-        pip3 install PyGithub
+        - pullissue
+        pip3 install -i https://test.pypi.org/simple/ pullissue
         ```
-        #load all issue
+        ## Using on Terminal
         ```
+        - load all issue
         loadissue token
-        ```
-        #load only repository
-        ```
+        - load only repository
         loadissue token username/repository
         ```
-        #Complete
+        ## Complete
         ```
         file.csv will save in your Document
         ```

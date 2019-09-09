@@ -2,9 +2,6 @@
 ```
 - pullissue
 pip3 install -i https://test.pypi.org/simple/ pullissue
-
-- PyGithub
-pip3 install PyGithub
 ```
 ## Using on Terminal
 ```
